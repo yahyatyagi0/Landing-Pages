@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.hero {
+  background: url('https://t4.ftcdn.net/jpg/02/01/78/01/360_F_201780104_hetXS26W8alnsbDKbpnr4sVizJfiO12w.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.top-bar {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(78, 75, 68);
+}
+
+.signup-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.page-count{
+  font-size: 16px;
+}
+
+.Current-page{
+  font-size: 30px;
+  font-weight: 500;
+}
+.Total-page{
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+div.socials{
+  display: flex;
+  gap: 20px;
+}
